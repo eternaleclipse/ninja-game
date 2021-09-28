@@ -5,13 +5,13 @@ const KEY_D = 68
 const KEY_SPACE = 32
 
 let img_idle = new Image()
-img_idle.src = 'img/player/idle.png'
+img_idle.src = './img/player/idle.png'
 
 let img_walk = new Image()
-img_walk.src = 'img/player/walk.png'
+img_walk.src = './img/player/walk.png'
 
 let img_attack = new Image()
-img_attack.src = 'img/player/attack.png'
+img_attack.src = './img/player/attack.png'
 
 class Player {
     constructor(keys, spawnProjectile) {

@@ -1,8 +1,8 @@
 let img_walk = new Image()
-img_walk.src = 'img/enemies/knight/walk.png'
+img_walk.src = './img/enemies/knight/walk.png'
 
 let img_attack = new Image()
-img_attack.src = 'img/enemies/knight/attack.png'
+img_attack.src = './img/enemies/knight/attack.png'
 
 class Knight {
     constructor(x, y, getPlayerPos) {

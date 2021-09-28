@@ -1,5 +1,5 @@
 const img_pretzel = new Image()
-img_pretzel.src = 'img/food/pretzel.png'
+img_pretzel.src = './img/food/pretzel.png'
 
 class Projectile {
     constructor(x, y, direction, checkCollision) {
