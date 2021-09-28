@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 800px;
+            height: 600px;
+            margin: -300px 0 0 -400px;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: none;">
+        <img src="img/sand.jpg" id="img_sand" />
+    </div>
+    <div class="center">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
